@@ -48,7 +48,7 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: ap-northeast-2
 
-        # AWS ECR Login (3)
+        # AWS ECR Login (3) 
       - name: aws ecr login
         id: login-ecr
         uses: aws-actions/amazon-ecr-login@v1
